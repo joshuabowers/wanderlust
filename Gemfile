@@ -5,7 +5,7 @@ gem 'rails', '4.0.0'
 
 gem 'thin'
 
-gem 'mongoid', '~> 3.1.5'
+gem 'mongoid', github: 'mongoid/mongoid'
 
 gem 'mini_magick', '~> 3.6.0'
 
