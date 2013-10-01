@@ -6,8 +6,14 @@ gem 'rails', '4.0.0'
 gem 'thin'
 
 gem 'mongoid', github: 'mongoid/mongoid'
+gem 'moped', github: 'mongoid/moped'
+gem 'origin', github: 'mongoid/origin'
 
 gem 'mini_magick', '~> 3.6.0'
+gem 'carrierwave-mongoid', require: 'carrierwave/mongoid'
+gem 'mongoid-grid_fs', github: 'ahoward/mongoid-grid_fs'
+
+gem 'jquery.fileupload-rails', '~> 1.6.1'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
